@@ -1,0 +1,11 @@
+name: Cron Job
+run-name: Crob Jobs 🚀
+on: 
+  schedule: 
+  - cron: "*/15 * * * *"
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: python main.py
+      
