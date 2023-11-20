@@ -414,7 +414,7 @@ connection_string = "mongodb+srv://adityamalik2023:Deloitte@cluster0.j1d4on4.mon
 client = MongoClient(connection_string)
 
 # Access a specific database
-db = client["RM-Annotation-Logs"]
+db = client["RM-Annotation-Logs-Testing2"]
 
 # Access a specific collection in the database
 collection = db["annotations"]
